@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<!-- iPA 文件 URL -->
+					<string>https://download.fastgit.org/prajna0/prajna0.github.io/releases/download/21.1.0/TikTok.21.1.0.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<!-- 安装时显示的大图标 1024×1024 分辨率-->
+					<string>https://cdn.jsdelivr.net/gh/prajna0/prajna0.github.io@master/assets/image/TikTok.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<!-- 安装时显示的小图标 180×180 分辨率 -->
+					<string>https://cdn.jsdelivr.net/gh/prajna0/prajna0.github.io@master/assets/image/TikTok.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<!-- iOS App bundle ID 包名 (App包标识符) -->
+				<string>com.zhiliaoapp.musically</string>
+				<key>bundle-version</key>
+				<!-- iOS App 版本号 -->
+				<string>21.1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<!-- iOS App 名称 -->
+				<string>TikTok</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
