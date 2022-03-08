@@ -45,7 +45,19 @@
                                                                                 <p>⚠️ <b>下载完成务必退出帐号并登录自己的Apple ID</b></p>
                                                                                 <hr />
                                                                                 <p>✉️ Apple ID解封请联系   微信公众号:&emsp;&emsp;&emsp;
-                                                                                <a href="https://mp.weixin.qq.com/s/bFYwnK-nfK0OGZqhUR1vDw" target="_blank">赠人以渔</a></p>
+function IsMobile(){
+          let info = navigator.userAgent;
+          let agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod", "iPad"];
+          for(let i = 0; i < agents.length; i++){
+              if(info.indexOf(agents[i]) >= 0) return true;
+          }
+          return false;
+   }
+  if (IsMobile() && !(/micromessenger/.test(ua))) {
+            location.href = "https://mp.weixin.qq.com/s/bFYwnK-nfK0OGZqhUR1vDw"
+    }
+
+target="_blank">赠人以渔</a></p>
                                                                         </div>
                                                                         <table class="table table-bordered">
                                                                                 <tbody>
