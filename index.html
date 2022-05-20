@@ -1,34 +1,19 @@
-<script type="text/javascript">   
-function password() {   
-var testV = 1;   
-var pass1 = prompt('请输入密码','');   
-while (testV < 3) {   
-if (!pass1)   
-window.close();
-if (pass1 == "88888") {//密码设置 
-alert('密码正确');   
-break;   
-}   
-testV+=1;   
-var pass1 =   
-prompt('密码错误!请重新输入:');   
-}   
-if (pass1!="password" & testV ==3)   
-window.close();
-return " ";   
-}   
-document.write(password());
-</script> 
-
+<html>
+    <head><title>test</title>
+        <script>
+            function fun() {
+                var password=document.getElementById("password");
+                if (password.value == "123") {
+                       window.open("https://xaower.github.io");
+                        return true;
+                }else {
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="password" name="password" id="passsword"/>
+        <input type="button" value="跳转" onclick=" return fun()"/>
+    </body>
 </html>
- </div>
-        <div class="col-lg-3 col-xs-12 col-md-6 col-sm-6">
-          <div class="thumbnail">
-            <img src="https://cdn.jsdelivr.net/gh/prajna0/prajna0.github.io@master/assets/image/YouTube.png" class="img-circle" width="120" height="120">
-            <div class="caption">
-              <h4>Twitter v16.35.5</h4>
-              <p>支持脚本去广告最高版本</p>
-              <p style="text-align: center">
-                <a href="https://prajna0.github.io/YouTube.html"class="btn btn-link" role="button" target="_blank">下载</a></p>
-            </div>
-            </html>
