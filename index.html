@@ -1,19 +1,22 @@
-<html>
-    <head><title>test</title>
-        <script>
-            function fun() {
-                var password=document.getElementById("password");
-                if (password.value == "123") {
-                       window.open("https://xaower.github.io");
-                        return true;
-                }else {
-                    return false;
-                }
-            }
-        </script>
-    </head>
-    <body>
-        <input type="password" name="password" id="passsword"/>
-        <input type="button" value="跳转" onclick=" return fun()"/>
-    </body>
-</html>
+<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('请输入密码','');   
+while (testV < 3) {   
+if (!pass1)   
+window.close();
+if (pass1 == "88888") {//密码设置 
+alert('密码正确');
+ <meta http-equiv="refresh" content="3;url= https://xaower.github.io ">
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('密码错误!请重新输入:');   
+}   
+if (pass1!="password" & testV ==3)   
+window.close();
+return " ";   
+}   
+document.write(password());
+</script> 
